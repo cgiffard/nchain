@@ -1,0 +1,19 @@
+{
+  "name": "nchain",
+  "version": "0.0.1",
+  "description": "Create object normalisers with a simple fluent interface.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "JSONSelect": "^0.4.0"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1",
+    "lodash": "^2.4.1"
+  }
+}
